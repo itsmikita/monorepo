@@ -1,0 +1,19 @@
+{
+  "name": "@edera-experiment/monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {},
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "bun": "^1.0.13"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
