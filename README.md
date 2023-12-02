@@ -1,4 +1,4 @@
-# `itsmikita/monorepo` template
+# A `monorepo` template
 
 This is a bare monorepo with workspaces template. Use it with `bun` and `rust` projects.
 
