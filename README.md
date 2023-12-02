@@ -12,7 +12,7 @@ After cloning the repo locally, you can add or initialize new packages in the re
 cd ./apps && bun create vite web
 ```
 
-The `packages/` folder intended for the code shared between and/or used in your repo's `apps/`.
+The `packages/` folder intended for the code shared between and/or used in your repo's `apps/` folder.
 
 After creating the workspaces, install all the dependencies from the root folder of your repo like so:
 
