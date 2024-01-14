@@ -3,11 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "init": "",
-    "reset": "rm -rf ./bun.lockb && rm -rf ./node_modules && rm -rf ./packages/*/node_modules && rm -rf ./apps/*/node_modules",
-    "workspace": ""
+    "reset": "rm -rf ./bun.lockb && rm -rf ./node_modules && rm -rf ./packages/*/node_modules && rm -rf ./apps/*/node_modules"
   },
-  "bin": "bin/monorepo",
   "workspaces": [
     "apps/*",
     "packages/*"
