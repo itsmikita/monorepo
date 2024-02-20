@@ -1,6 +1,11 @@
 {
   "name": "monorepo",
   "version": "0.0.0",
+  "author": {
+    "name": "Mikita Stankiewicz",
+    "email": "itsmikita@gmail.com",
+    "url": "https://github.com/itsmikita"
+  },
   "private": true,
   "scripts": {
     "reset": "rm -rf ./bun.lockb && rm -rf ./node_modules && rm -rf ./packages/*/node_modules && rm -rf ./apps/*/node_modules"
@@ -10,10 +15,9 @@
     "packages/*"
   ],
   "dependencies": {
-    "bun": "latest",
-    "bun-types": "latest",
-    "typescript": "latest"
-  },
-  "devDependencies": {},
-  "peerDependencies": {}
+    "@hyper-hyper/hyper-server": "github:hyper-hyper/hyper-server",
+    "bun": "^1.0.28",
+    "bun-types": "^1.0.28",
+    "typescript": "^5.3.3"
+  }
 }
