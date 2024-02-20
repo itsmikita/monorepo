@@ -6,6 +6,10 @@
     "email": "itsmikita@gmail.com",
     "url": "https://github.com/itsmikita"
   },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/itsmikita/monorepo.git"
+  },
   "private": true,
   "scripts": {
     "reset": "rm -rf ./bun.lockb && rm -rf ./node_modules && rm -rf ./packages/*/node_modules && rm -rf ./apps/*/node_modules"
